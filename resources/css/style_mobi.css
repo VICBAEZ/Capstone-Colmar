@@ -1,0 +1,148 @@
+@media only screen and (max-width: 710px) {
+html {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+}
+#desktop {
+  display: none;
+}
+
+#mobi {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #328CC1;
+}
+
+.holder-logo {
+  display: none;
+}
+
+#learn {
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.holder-img-header {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.holder-learn {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin: 32px 16px;
+  width: 100%;
+}
+
+#practice {
+  padding-bottom: 16px;
+}
+
+.holder-practice-main {
+  display: none;
+}
+
+.holder-campus-info {
+  width: 100%;
+}
+
+.campus-info-single {
+  flex-flow: wrap column;
+  border: 0;
+  height: auto;
+}
+
+.holder-img-campus-info {
+  min-width: 100%;
+  margin: 0;
+  padding: 16px;
+}
+
+.img-campus-info {
+  display: none;
+}
+
+.img-campus-info-mobi {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.blue {
+  background-color: #1D2731;
+}
+
+.campus-info-text {
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+
+#learn {
+  padding-bottom: 24px;
+}
+
+#learn h1,h2 {
+  font-family: "Arial", serif;
+  font-size: 2rem;
+  padding: 32px 0 8px 0;
+  text-align: center;
+}
+
+#learn h2 {
+  font-size: 1rem;
+  /*line-height: 0.5rem;*/
+}
+
+.holder-cursos {
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.holder-curso {
+  width: 100%;
+  margin: 8px 16px;
+  padding: 0;
+}
+
+.holder-curso-txt h3, p {
+  display: none;
+}
+
+.holder-curso-img {
+  display: none;
+}
+
+.curso-img {
+  display: none;
+}
+
+.holder-vid {
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+#tesis {
+  padding-bottom: 24px;
+}
+.holder-tesis-txt {
+  display: none;
+}
+
+.holder-tesis-info {
+  display: none;
+}
+
+footer {
+  justify-content: flex-start;
+}
+
+.links {
+  display: none;
+}
+}
